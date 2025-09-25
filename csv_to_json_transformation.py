@@ -4,8 +4,11 @@ import json
 csv_file_path = 'samplecsvfile.csv'
 csv_file_path2 = 'samplecsvfile2.csv'
 
-csv_list = [csv_file_path, 
-            csv_file_path2]  
+csv_list = [
+            csv_file_path, 
+            csv_file_path2
+            ]  
+
 # you can add more csv file paths to this list 
 
 for csv_file in csv_list:
